@@ -8,8 +8,9 @@
 
 Grab the screen of a Keysight InfiniiVision oscilloscope over USB, file every capture automatically,<br>
 and do the same for multimeters and power supplies — all from one Windows app.
-DSOX 오실로스코프(USB), 34401A(시리얼),  34461A(USB), PowerSupply(SCPI프로토콜 지원되는 장비), DL3021(시리얼)
-장비들의 화면을 캡쳐할수 있습니다.
+
+DSOX 오실로스코프(USB), 34401A(시리얼), 34461A(USB), 전원공급기(SCPI 지원 장비), DL3021(시리얼)<br>
+장비들의 화면을 캡처할 수 있습니다.
 
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6)
 ![License](https://img.shields.io/badge/license-MIT-green)
