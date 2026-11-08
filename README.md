@@ -20,8 +20,7 @@ DSOX 오실로스코프(USB), 34401A(시리얼), 34461A(USB), 전원공급기(SC
 
 </div>
 
-<!-- Promo video: in the GitHub web editor, drag promo/OscCapture_promo_1280.mp4 here,
-     then delete this comment. GitHub replaces it with a playable video. -->
+<p align="center"><a href="../../releases/latest"><img src="docs/demo.gif" width="720" alt="OscCapture demo"></a></p>
 
 ![OscCapture main window](docs/screenshot.png)
 
