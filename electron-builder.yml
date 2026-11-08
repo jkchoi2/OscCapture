@@ -1,0 +1,15 @@
+appId: com.utotech.osccapture
+productName: OscCapture
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**
+  - package.json
+asarUnpack:
+  - node_modules/koffi/**
+  - node_modules/@serialport/**
+win:
+  target: dir
+  icon: build/icon.png
+  executableName: OscCapture

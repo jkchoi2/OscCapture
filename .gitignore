@@ -1,0 +1,25 @@
+# Dependencies and build output
+node_modules/
+out/
+dist/
+.build-keep/
+*.zip
+
+# User data and local settings (created next to the exe)
+CaptureData/
+CapConfig.json
+configOscCapture.json
+psuProfiles.json
+
+# Private development notes and references (kept locally only)
+수정사항*.txt
+CLAUDE.md
+*34401A.png
+Screenshot/
+promo/
+
+# Editor / OS
+.vscode/
+*.log
+Thumbs.db
+*.bak

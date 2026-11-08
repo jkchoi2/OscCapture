@@ -1,0 +1,33 @@
+{
+  "name": "osccapture",
+  "productName": "OscCapture",
+  "version": "1.0.0",
+  "description": "Screen capture and image manager for Keysight DSOX2000 oscilloscopes",
+  "main": "./out/main/index.js",
+  "author": "utotech",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.web.json",
+    "build:win": "node scripts/build-win.mjs"
+  },
+  "dependencies": {
+    "koffi": "^3.3.2",
+    "lucide-react": "^1.51.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "serialport": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3",
+    "electron-vite": "^5.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^7.3.6"
+  }
+}
